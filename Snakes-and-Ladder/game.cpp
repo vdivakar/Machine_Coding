@@ -70,18 +70,3 @@ class Game{
             }
         }
 };
-
-
-int main(){
-    cout << "Welcome to Jumanji!" << endl;
-
-    Game game;
-    vector<string> player_names;
-    player_names.push_back("denis");
-    player_names.push_back("verma");
-    player_names.push_back("Priyanka");
-    player_names.push_back("DV");
-    game.setPlayers(player_names.size(), player_names);
-    game.play();
-    return 0;
-}
