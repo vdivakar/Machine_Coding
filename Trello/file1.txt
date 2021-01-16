@@ -1,0 +1,4 @@
+A, badminton
+B, running
+C, gym
+D, friends
